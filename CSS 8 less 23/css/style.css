@@ -1,0 +1,32 @@
+.wrapper {
+    height: 100vh;
+    padding: 10vh 100px 10vh;
+}
+
+.block {
+    height: 100%;
+    border: 3px solid #333;
+}
+
+/* -----Универсальный------ */
+
+.block {
+    background: url(../images/image1.jpg) 50% 50% / 25% no-repeat, linear-gradient(#5cc4c4, #78bd46);
+}
+
+
+/* ------------------- */
+
+.block2 {
+    height: 100%;
+    border: 3px solid #333;
+}
+
+/* ---------Не универсальный :)------------ */
+
+.block2 {
+    background-image: url(../images/image1.jpg), linear-gradient(#d33232, #1d0469);
+    background-repeat: no-repeat;
+    background-position: 50% 50%, 100% 100%;
+    background-size: 25%, 100%;
+}

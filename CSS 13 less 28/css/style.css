@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 50px;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid black;
+    height: 400px;
+    background-color: #444;
+}
+
+/* -------------------- */
+
+.flexbox__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(0, 0, 0);
+    width: 10%;
+    height: 30%;
+    background-color: rgb(127, 118, 93);
+}

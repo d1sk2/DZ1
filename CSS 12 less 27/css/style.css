@@ -1,0 +1,57 @@
+body {
+    background-color: gray;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #444;
+    position: relative;
+}
+
+.block {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: absolute;
+}
+
+/* ------------------ */
+
+.block {
+    animation: color-block 3s infinite alternate;
+}
+
+
+
+@keyframes color-block {
+    0% {
+        left: 0;
+        color: red;
+    }
+
+    25% {
+        text-decoration: underline;
+    }
+
+    50% {
+        font-size: 4rem;
+        font-weight: bold;
+    }
+
+    75% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        color: black;
+        left: 95%;
+    }
+}
